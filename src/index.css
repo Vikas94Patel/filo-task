@@ -21,8 +21,8 @@
   width: 100%;
 }
 
-#MathJax-Element-2-Frame {
-  white-space: normal;
+.mjx-chtml {
+  white-space: normal !important;
 }
 
 .MathJax_Preview {
