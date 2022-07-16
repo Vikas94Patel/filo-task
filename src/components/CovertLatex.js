@@ -13,7 +13,9 @@ const ConvertLatex = ({ user }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    setformula([...formula, inputValue]);
+    if (!formula.includes(inputValue.trim())) {
+      setformula([...formula, inputValue]);
+    }
     //   setformula([...formula, { latex: inputValue, actual: "" }]);
     //     const actualFormula = document.getElementById(
     //       "MathJax-Element-1-Frame"
@@ -42,9 +44,9 @@ const ConvertLatex = ({ user }) => {
             />
           </Form.Group>
           <MathJax.Provider>
-            <div>
+            <div className="my-3">
               <p>Actual Formula:</p>
-              <MathJax.Node formula={inputValue} />
+              <MathJax.Node inline formula={inputValue} />
             </div>
           </MathJax.Provider>
           <div className="mb-3">

@@ -21,6 +21,10 @@
   width: 100%;
 }
 
+.mjx-chtml {
+  white-space: normal;
+  word-spacing: inherit;
+}
 .MathJax_Preview {
   display: none;
 }
