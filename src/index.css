@@ -23,8 +23,9 @@
 
 .mjx-chtml {
   white-space: normal;
-  word-spacing: inherit;
+  word-spacing: normal;
 }
+
 .MathJax_Preview {
   display: none;
 }
