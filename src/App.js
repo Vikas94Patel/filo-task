@@ -14,7 +14,7 @@ function App() {
       details.email_verified
     ) {
       setLogin(true);
-      setUser({ ...user, email: details.email });
+      setUser({ ...user, email: details.email, name: details.name });
     } else {
       setError("Incorrect email or password!");
     }

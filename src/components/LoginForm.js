@@ -45,6 +45,20 @@ const LoginForm = ({ login, error, user }) => {
               ""
             )}
             <Form.Group className="mb-3">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="text"
+                required
+                name="name"
+                id="name"
+                autoComplete="off"
+                onChange={(e) =>
+                  setDetails({ ...details, name: e.target.value })
+                }
+                value={details.name}
+              />
+            </Form.Group>
+            <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>
               <Form.Control
                 type="email"
