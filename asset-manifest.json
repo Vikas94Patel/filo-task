@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/filo-task/static/css/main.1306f64d.css",
-    "main.js": "/filo-task/static/js/main.f764acd6.js",
+    "main.js": "/filo-task/static/js/main.a287975c.js",
     "index.html": "/filo-task/index.html",
     "main.1306f64d.css.map": "/filo-task/static/css/main.1306f64d.css.map",
-    "main.f764acd6.js.map": "/filo-task/static/js/main.f764acd6.js.map"
+    "main.a287975c.js.map": "/filo-task/static/js/main.a287975c.js.map"
   },
   "entrypoints": [
     "static/css/main.1306f64d.css",
-    "static/js/main.f764acd6.js"
+    "static/js/main.a287975c.js"
   ]
 }
